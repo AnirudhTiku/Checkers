@@ -1,0 +1,61 @@
+body {
+	font-family: Courier, monospace;
+	text-align: center;
+}
+
+#board{
+	float: left;
+}
+
+#red{
+	color: red;
+	font-weight: bold;
+
+}
+
+#bold{
+	font-weight: bold;
+}
+
+button {
+	width: 80px;
+	height: 80px;
+	background: white;
+}
+
+button:hover {
+	background: #2196F3;
+}
+
+.redButton {
+	border: 10px solid red;
+}
+
+.blackButton {
+	border: 10px solid black;
+}
+
+#highlight {
+	background: #33BB33;
+}
+
+.redPiece {
+	font-size: 24pt;
+	color: red;
+}
+
+.blackPiece {
+	font-size: 24pt;	
+	color: black;
+}
+
+.blank {
+	font-size: 24pt;
+	color: gray;
+}
+
+#stats {
+	
+	font-family: Verdana;
+	font-size: x-large;
+}

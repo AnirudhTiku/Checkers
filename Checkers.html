@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	ICS2O - 03: Checkers 
+	</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<script src= "Checkers.js">
+		Please Enable JavaScript.
+	</script>
+</head>
+
+<body onload="startGame();"> 
+	<h1>
+		C <span id="red">H </span>E <span id="red">C </span>K <span id="red">E </span>R <span id="red">S </span>
+	</h1>
+	<div id="board">
+		This is where the board will appear.
+	</div>
+	<br>
+	<br>
+	<table id="stats" align="center"><tr>
+		<td align="right"><span id = "bold">Black </span> pieces captured/available:</td>
+		<td><span id = "blackInfo">_/_</span></td>
+	<tr>
+		<td align="right"><span id = "red">Red </span> pieces captured/available:</td>
+		<td><span id = "redInfo">_/_</span></td>
+	<tr>
+		<td align="right">Total moves:</td>
+		<td><span id = "moves">_</span></td>
+	<tr>
+	    <td colspan="2"><span id = "turn">Turn</span></td>
+	<tr>
+		<td colspan="2"><span id="winner"></span></td>
+	</table>
+</body>
+</html>
